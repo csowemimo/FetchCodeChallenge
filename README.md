@@ -1,5 +1,3 @@
-# FetchCodeChallenge
-
 To run the code:
 
 1. Download Cypress
