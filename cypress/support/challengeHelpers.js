@@ -154,8 +154,8 @@ function incrementGroup(groupIdentifier) {
         throw new Error(`Invalid group identifier: ${groupIdentifier}`);
     }
 
-    const prefix = matches[1];  // Non-numeric part
-    let number = parseInt(matches[2], 10);  // Numeric part
+    const prefix = matches[1];  
+    let number = parseInt(matches[2], 10);
     number++;
     return `${prefix}${number}`;
 }
